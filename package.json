@@ -1,14 +1,13 @@
 {
   "name": "bone-cli-anyproxy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "anyproxy command line for bone",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "wyicwx@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "anyproxy": "^3.10.4",
+    "anyproxy": "^4.0.0-beta18",
     "micromatch": "^3.1.4",
     "mime": "^2.0.3"
   }
