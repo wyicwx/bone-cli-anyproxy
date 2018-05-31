@@ -271,6 +271,10 @@ module.exports = function (conf) {
                     }
                 }
 
+                if (!Object.is(opts.forceProxyHttps, undefined)) {
+                    options.forceProxyHttps = opts.forceProxyHttps;
+                }
+
                 bone.watch();
 
                 const proxyServer = new AnyProxy.ProxyServer(options);
